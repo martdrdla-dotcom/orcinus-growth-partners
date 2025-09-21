@@ -7,6 +7,20 @@
     <meta name="description" content="ORCINUS s.r.o. investuje do zajímavých projektů a dlouhodobě spravuje vlastní majetek. Partnerství, transparentnost a odpovědnost v podnikání." />
     <meta name="author" content="ORCINUS s.r.o." />
 
+    <!-- GitHub Pages SPA redirect script -->
+    <script type="text/javascript">
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+
     <meta property="og:title" content="ORCINUS s.r.o. – Investice do smysluplných projektů" />
     <meta property="og:description" content="ORCINUS s.r.o. investuje do zajímavých projektů a dlouhodobě spravuje vlastní majetek. Partnerství, transparentnost a odpovědnost v podnikání." />
     <meta property="og:type" content="website" />
