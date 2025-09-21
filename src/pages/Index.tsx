@@ -13,6 +13,7 @@ import {
   FileText,
   Handshake
 } from 'lucide-react';
+import orcinusLogo from '@/assets/orcinus-logo.png';
 
 const Index = () => {
   const pillars = [
@@ -91,6 +92,9 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-subtle"></div>
         <div className="relative container">
           <div className="max-w-4xl mx-auto text-center">
+            <div className="flex justify-center mb-8">
+              <img src={orcinusLogo} alt="ORCINUS s.r.o." className="h-20 w-auto" />
+            </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
               Investujeme do smysluplných projektů
             </h1>
