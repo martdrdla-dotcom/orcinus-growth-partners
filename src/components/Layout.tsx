@@ -41,7 +41,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       <header className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b">
         <div className="container flex h-16 items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
-            <img src={orcinusLogo} alt="ORCINUS s.r.o." className="h-10 w-auto" />
+            <img src={orcinusLogo} alt="ORCINUS s.r.o." className="h-12 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}
@@ -110,7 +110,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             {/* Company Info */}
             <div className="lg:col-span-2">
               <div className="flex items-center space-x-2 mb-4">
-                <img src={orcinusLogo} alt="ORCINUS s.r.o." className="h-8 w-auto" />
+                <img src={orcinusLogo} alt="ORCINUS s.r.o." className="h-10 w-auto" />
               </div>
               <div className="text-sm text-muted-foreground space-y-1">
                 <p>ORCINUS s.r.o.</p>
