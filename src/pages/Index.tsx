@@ -95,7 +95,7 @@ const Index = () => {
             <div className="flex justify-center mb-8">
               <img src={orcinusLogo} alt="ORCINUS s.r.o." className="h-20 w-auto" />
             </div>
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-primary">
               Investujeme do smysluplných projektů
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
