@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import orcinusLogo from '@/assets/orcinus-logo.png';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -40,9 +41,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       <header className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b">
         <div className="container flex h-16 items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
-            <div className="bg-gradient-primary px-3 py-1 rounded-lg">
-              <span className="text-primary-foreground font-bold text-xl">ORCINUS</span>
-            </div>
+            <img src={orcinusLogo} alt="ORCINUS s.r.o." className="h-10 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}
@@ -111,9 +110,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             {/* Company Info */}
             <div className="lg:col-span-2">
               <div className="flex items-center space-x-2 mb-4">
-                <div className="bg-gradient-primary px-3 py-1 rounded-lg">
-                  <span className="text-primary-foreground font-bold text-xl">ORCINUS</span>
-                </div>
+                <img src={orcinusLogo} alt="ORCINUS s.r.o." className="h-8 w-auto" />
               </div>
               <div className="text-sm text-muted-foreground space-y-1">
                 <p>ORCINUS s.r.o.</p>
